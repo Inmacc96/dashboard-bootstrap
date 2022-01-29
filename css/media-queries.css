@@ -1,0 +1,34 @@
+/* ----- MEDIAQUERIES ----- */
+
+/* Dispositivos más pequeños que sm */
+@media screen and (max-width: 575px) {
+    .barra-lateral {
+        min-height: auto;
+    }
+    
+}
+
+/* Dispositivos más pequeños que md */
+@media screen and (max-width: 767px) {
+    
+}
+
+/* Dispositivos más pequeños que lg */
+@media screen and (max-width: 991px) {
+    
+}
+
+/* Dispositivos más pequeños que xl */
+@media screen and (max-width: 1200px) {
+    .barra-lateral {
+        min-width: auto;
+    }
+
+    .barra-lateral .logo{
+        display: none !important;
+    }
+
+    .barra-lateral .menu a svg{
+        display: none;
+    }
+}
