@@ -18,34 +18,92 @@ a {
   min-height: 100vh; /*minimo de alto del 100% de la altura de la pantalla*/
 }
 
-.barra-lateral a{
-    color: #fff;
+.barra-lateral a {
+  color: #fff;
 }
 
 /* --- LOGO --- */
-.barra-lateral .logo{
-    background-color: #0275db;
+.barra-lateral .logo {
+  background-color: #0275db;
 }
 
-.barra-lateral .logo h2{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+.barra-lateral .logo h2 {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 /* --- MENU --- */
-.barra-lateral .menu a{
-    display: block;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+.barra-lateral .menu a {
+  display: block;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.barra-lateral .menu a:hover{
-    background-color: #35ae6b;
+.barra-lateral .menu a:hover {
+  background-color: #35ae6b;
 }
 
-.barra-lateral .menu a svg{
+.barra-lateral .menu a svg {
+  margin-right: 10px;
+}
+
+/* --- --- MAIN --- --- */
+.main {
+  padding-top: 40px;
+}
+
+.main .columna {
+  padding: 0 40px;
+}
+
+.main .titulo {
+  color: #262a34;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.main .widget {
+  margin-bottom: 40px;
+}
+
+/* --- WIDGET NUEVA ENTRADA --- */
+.main .nueva_entrada form input[type="text"],
+.main .nueva_entrada form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main .nueva_entrada form textarea {
+  min-height: 200px;
+}
+
+.main .widget button {
+  background-color: #0275d8;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+}
+
+.main .widget button:hover {
+  background-color: #025aa5;
+}
+
+.main .widget button svg{
     margin-right: 10px;
 }
