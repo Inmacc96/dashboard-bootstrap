@@ -86,7 +86,7 @@ a {
   min-height: 200px;
 }
 
-.main .widget button {
+.main .nueva_entrada button {
   background-color: #0275d8;
   cursor: pointer;
   color: #fff;
@@ -100,43 +100,119 @@ a {
   border-radius: 3px;
 }
 
-.main .widget button:hover {
+.main .nueva_entrada button:hover {
   background-color: #025aa5;
 }
 
-.main .widget button svg{
-    margin-right: 10px;
+.main .nueva_entrada button svg {
+  margin-right: 10px;
 }
 
 /* --- WIDGET ESTADISTICAS --- */
-.main .estadisticas .contenedor{
-    box-shadow: 0px 1px 1px 0px rgba(0,0,0, .2);
+.main .estadisticas .contenedor {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.main .estadisticas .caja{
-    background-color: #fff;
-    border: 1px solid #e3e3e3;
-    padding: 40px 20px;
-    flex: 1; /*Todas las cajas ocupan el mismo espacio*/
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+.main .estadisticas .caja {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 40px 20px;
+  flex: 1; /*Todas las cajas ocupan el mismo espacio*/
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
-.main .estadisticas .caja h3{
-    margin-bottom: 10px;
-    color: #35ae6b;
+.main .estadisticas .caja h3 {
+  margin-bottom: 10px;
+  color: #35ae6b;
 }
 
-.main .estadisticas .caja p{
-    margin-bottom: 0px;
-    color: #a8a8a8;
+.main .estadisticas .caja p {
+  margin-bottom: 0px;
+  color: #a8a8a8;
 }
 
-.main .estadisticas .caja:first-child{
-    border-right: none;
+.main .estadisticas .caja:first-child {
+  border-right: none;
 }
 
-.main .estadisticas .caja:last-child{
-    border-left: none;
+.main .estadisticas .caja:last-child {
+  border-left: none;
 }
 
+/* --- WIDGET COMENTARIOS --- */
+.main .comentarios .contenedor {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main .comentarios .comentario {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+}
+
+.main .comentarios .comentario .foto {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  margin-right: 20px;
+  border-radius: 100px;
+}
+
+.main .comentarios .comentario .foto a {
+  display: inline-block; /*El enlace abarca toda la imagen*/
+}
+
+.main .comentarios .comentario .foto img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.main .comentarios .comentario .texto {
+  flex: 1;
+}
+
+.main .comentarios .comentario .texto .texto-comentario {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main .comentarios .comentario .botones button {
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.main .comentarios .comentario .botones .aceptar {
+  background-color: #35ae6b;
+}
+
+.main .comentarios .comentario .botones .eliminar {
+  background-color: #b74848;
+}
+
+.main .comentarios .comentario .botones .bloquear {
+  color: #acacac;
+}
+
+.main .comentarios .comentario .botones .aceptar:hover {
+  background-color: #449d44;
+}
+
+.main .comentarios .comentario .botones .eliminar:hover {
+  background-color: #c9302c;
+}
+
+.main .comentarios .comentario .botones .bloquear:hover {
+  color: #fff;
+  background-color: #acacac;
+}

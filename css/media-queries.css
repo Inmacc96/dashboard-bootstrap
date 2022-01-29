@@ -10,7 +10,9 @@
 
 /* Dispositivos más pequeños que md */
 @media screen and (max-width: 767px) {
-    
+    .main .comentarios .comentario .botones button {
+        width: 100%;
+    }
 }
 
 /* Dispositivos más pequeños que lg */
@@ -30,5 +32,10 @@
 
     .barra-lateral .menu a svg{
         display: none;
+    }
+
+    .main .comentarios .comentario .foto{
+        width: 30px;
+        height: 30px;
     }
 }
